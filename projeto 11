@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recomendação: O Lorax - Em Busca da Trúfula Perdida</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: #2c3e50;
+            text-align: center;
+        }
+        .movie-poster {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        .quote {
+            font-style: italic;
+            text-align: center;
+            margin: 20px 0;
+            color: #555;
+        }
+        .btn {
+            display: block;
+            width: fit-content;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            text-align: center;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #218838;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 0.9em;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>O Lorax: Em Busca da Trúfula Perdida</h1>
+        <img src="https://upload.wikimedia.org/wikipedia/pt/2/29/The_Lorax_poster.jpg" alt="Pôster do Filme O Lorax" class="movie-poster">
+
+        <p class="quote">"A menos que alguém como você se importe muito, nada vai melhorar." - O Lorax</p>
+
+        <h2>Por que você deve assistir "O Lorax"?</h2>
+        <p><strong>"O Lorax: Em Busca da Trúfula Perdida"</strong> é uma animação encantadora e profunda, baseada na obra do Dr. Seuss, que nos convida a refletir sobre a importância da natureza e as consequências de nossas ações no meio ambiente.</p>
+
+        <h3>Mensagem Ecológica Poderosa</h3>
+        <p>O filme aborda de forma lúdica, mas impactante, temas como desmatamento, poluição e a ganância corporativa. Ele nos mostra um futuro distópico onde a natureza foi completamente destruída, servindo como um alerta para a preservação ambiental. É uma excelente ferramenta para iniciar conversas sobre sustentabilidade com crianças e adultos.</p>
+
+        <h3>Personagens Cativantes</h3>
+        <p>Desde o pequeno Ted, que busca uma árvore real para impressionar a garota dos seus sonhos, até o misterioso e sábio Lorax, guardião das árvulas de Trúfula, os personagens são memoráveis e carregam lições valiosas. O vilão, o ganancioso Uma-Vez-e-Meia, representa os perigos do consumo desenfreado e da exploração irresponsável dos recursos naturais.</p>
+
+        <h3>Animação Deslumbrante e Trilha Sonora Envolvente</h3>
+        <p>Com visuais vibrantes e cores ricas, o mundo de "O Lorax" é um deleite para os olhos. A animação é fluida e cheia de detalhes que enriquecem a experiência. Além disso, a trilha sonora complementa perfeitamente a narrativa, com músicas que variam do divertido ao tocante.</p>
+
+        <h3>Lições para Todas as Idades</h3>
+        <p>Embora seja uma animação, "O Lorax" oferece camadas de significado que ressoam com todas as idades. Ele nos lembra que cada um de nós tem um papel a desempenhar na proteção do nosso planeta e que pequenas atitudes podem fazer uma grande diferença.</p>
+
+        <p>Se você procura um filme que seja divertido, visualmente atraente e que ainda te faça pensar, **"O Lorax: Em Busca da Trúfula Perdida"** é a escolha perfeita. Prepare-se para se emocionar e, quem sabe, inspirar-se a plantar uma semente!</p>
+
+        <a href="https://www.youtube.com/results?search_query=trailer+o+lorax" target="_blank" class="btn">Assista ao Trailer no YouTube!</a>
+    </div>
+
+    <div class="footer">
+        <p>Página de recomendação criada para o GitHub Pages.</p>
+    </div>
+</body>
+</html>
