@@ -1,0 +1,111 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50; /* Um verde esperança! */
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.1em;
+}
+
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+section:last-child {
+    border-bottom: none;
+}
+
+h2 {
+    color: #339933; /* Um verde um pouco mais escuro */
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 2em;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens quebrem a linha em telas menores */
+    align-items: center;
+    gap: 20px; /* Espaçamento entre a imagem e o texto */
+}
+
+.content-wrapper p {
+    flex: 1; /* Permite que o parágrafo ocupe o espaço restante */
+    min-width: 300px; /* Garante que o parágrafo não fique muito estreito */
+}
+
+.imagem-lorax {
+    max-width: 250px; /* Tamanho da imagem */
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    display: block; /* Para centralizar se necessário ou evitar espaços extras */
+    margin: 0 auto; /* Centraliza a imagem se não houver texto ao lado */
+}
+
+/* Ajustes para telas menores */
+@media (min-width: 768px) {
+    .imagem-lorax {
+        margin: 0; /* Remove a margem auto para não interferir no flexbox */
+    }
+
+    .content-wrapper {
+        flex-wrap: nowrap; /* Impede a quebra de linha em telas maiores */
+    }
+
+    .content-wrapper:nth-child(even) .imagem-lorax {
+        order: 2; /* Coloca a imagem à direita em seções pares */
+    }
+
+    .content-wrapper:nth-child(even) p {
+        order: 1; /* Coloca o texto à esquerda em seções pares */
+    }
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 30px;
+    font-size: 0.9em;
+}
+
+/* Efeito Hover em links (se houver no futuro) */
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
